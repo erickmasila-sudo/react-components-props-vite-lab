@@ -1,7 +1,5 @@
 import React from "react";
-import demo from "../images/demo.png";
-
-function About({ image = demo, about }) {
+function About({ image= 'https://via.placeholder.com/215', about }) {
   return (
     <aside>
       <img src={image} alt="blog logo" />
